@@ -50,5 +50,5 @@ echo "EXERCICE 4";
 echo "<br>";
 /* EXERCICE 4 */
     // Créer une variable simple booléenne ayant pour valeur 0
-    $bool = 0;
-    echo $bool;
+    $bool = false;
+    var_dump($bool);
