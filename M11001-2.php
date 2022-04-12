@@ -1,11 +1,11 @@
 <?php
 
 // Créer une constante avec la fonction adaptée, et lui donner le nom et la valeur 18
-define("number", "18");
-var_dump(number);
+define("NUMBER", "18");
+var_dump(NUMBER);
 
 // Utiliser cette constante dans une nouvelle variable de type string, ayant pour contenu "Le numéro des pompiers est le " puis concaténer votre constante
-$phrase = "Le numéro des pompiers est le ".number;
+$phrase = "Le numéro des pompiers est le ".NUMBER;
 echo $phrase;
 echo "<br>";
 
